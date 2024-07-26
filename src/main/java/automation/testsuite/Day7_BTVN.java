@@ -34,14 +34,7 @@ public class Day7_BTVN {
 	}
 	
 	
-	public void xuat() {
-		System.out.println("Mã nhân viên: " + this.id);
-		System.out.println("Họ và tên: " + this.name);
-		System.out.println("Số điện thoại: " + this.phone);
-		System.out.println("Ngày sinh: " + this.age);
-		
-		
-	}
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Nhập số lượng nhân viên: ");
